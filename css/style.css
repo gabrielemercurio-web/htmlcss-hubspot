@@ -27,6 +27,7 @@ a {text-decoration: none;}
     position: fixed;
     z-index: 5;
 }
+
 #header-bottom {
     padding-top: 90px;
     z-index: 4;
@@ -34,7 +35,7 @@ a {text-decoration: none;}
 
 
 
-/* -------------------------------------- BOTTOM FIXED MESSAGE */
+/* ------------------------------ BOTTOM FIXED MESSAGE */
 
 .bottom-fixed-message {
     width: 60px;
@@ -44,7 +45,7 @@ a {text-decoration: none;}
     right: 30px;
     background-color: #33475b;
     border-radius: 50%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     transition-property: transform;
     transition-duration: 0.3s;
 }
@@ -53,17 +54,18 @@ a {text-decoration: none;}
     transform: scale(1.1, 1.1);
 }
 
-.fa-comments {
-    margin-top: 25%;
-    margin-left: 25%;
+.bottom-fixed-message img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
     position: absolute;
-    font-size: 28px;
     color: #fff;
 }
 
 
 
-/* ------------------------------------------------ HEADER TOP */
+/* ---------------------------------------- HEADER TOP */
 
 .header-top-left {
     float: left;
@@ -141,7 +143,7 @@ a {text-decoration: none;}
 }
 
 
-/* -------------------------------------------- HEADER BOTTOM */
+/* ------------------------------------- HEADER BOTTOM */
 
 .header-bottom-left {
     float: left;
@@ -203,7 +205,7 @@ a {text-decoration: none;}
 
 
 
-/* ------------------------------------------ JUMBO - SLIDER */
+/* ------------------------------------ JUMBO - SLIDER */
 
 #jumbo-slider {
     background-image: url(img/img-jumbo.png);
@@ -257,7 +259,7 @@ a {text-decoration: none;}
 
 
 
-/* ------------------------------------------------- MAIN TOP */
+/* ----------------------------------------- MAIN TOP */
 
 main {
     background-color: #f5f8fa;
@@ -377,7 +379,7 @@ main {
 
 
 
-/* ----------------------------------------------- MAIN BOTTOM */
+/* --------------------------------------- MAIN BOTTOM */
 
 .main-bottom {
     width: 100%;
@@ -496,6 +498,43 @@ main {
     padding-bottom: 15px;
     width: 100%;
 }
+
+
+
+
+/* ---------------------------------- SECTION GRADIENT */
+
+#gradient {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    padding: 150px 0px;
+}
+
+#gradient div:first-child {
+    text-align: center;
+}
+
+#gradient h1 {
+    font-size: 36px;
+    color: #fff;
+    padding: 0px 170px;
+    line-height: 46px;
+}
+
+#gradient p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    padding: 0px 170px;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 
 
