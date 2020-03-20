@@ -22,7 +22,7 @@ a {text-decoration: none;}
 
 #header-top {
     width: 100%;
-    background-color: #efefef;
+    background-color: #f5f8fa;
     border-bottom: 1px solid #aaa;
     position: fixed;
     z-index: 5;
@@ -115,9 +115,10 @@ a {text-decoration: none;}
 }
 
 .fa-search {
-    font-size: 20px;
-    color: #777;
+    font-size: 18px;
+    color: #00a4bd;
     margin-right: 30px;
+    vertical-align: bottom;
 }
 
 .login {
@@ -256,12 +257,12 @@ a {text-decoration: none;}
 
 
 
-/* ------------------------------------------------- MAIN */
+/* ------------------------------------------------- MAIN TOP */
 
 main {
-    background-color: #efefef;
+    background-color: #f5f8fa;
     width: 100%;
-    height: 700px;
+
     padding: 100px 0px;
 }
 
@@ -292,14 +293,20 @@ main {
 }
 
 .main-box-1 {
-    float: left;
-    width: 740px;
+    float: right;
+    width: 713px;
     background-color: #fff;
     border-radius: 5px;
     padding: 35px 35px 50px;
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition-property: transform;
+    transition-duration: 0.4s;
 }
+
+.main-box-1:hover {
+        transform: scale(1.02, 1.02);
+    }
 
 .main-box-1 h2::before {
     content: '';
@@ -312,13 +319,13 @@ main {
 }
 
 .main-box-1 h2 {
-    font-size: 22px;
+    font-size: 24px;
     color: #33475b;
     display: inline-block;
 }
 
 .main-box-1 p {
-    font-size: 14px;
+    font-size: 15px;
     color: #33475b;
     font-weight: 300;
     margin: 20px 0px;
@@ -357,7 +364,7 @@ main {
     background-image: url('http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg');
     width: 15px;
     height: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     vertical-align: sub;
 }
 
@@ -370,6 +377,125 @@ main {
 
 
 
+/* ----------------------------------------------- MAIN BOTTOM */
+
+.main-bottom {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-box-2, .main-box-3, .main-box-4 {
+    float: left;
+    width: 346.67px;
+    /* height: 450px; */
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 35px;
+    box-shadow: ;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition-property: transform;
+    transition-duration: 0.4s;
+    position: relative;
+}
+
+.main-box-2:hover, .main-box-3:hover, .main-box-4:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.main-bottom .main-box-3 {
+    margin: 0px 20px;
+}
+
+.main-bottom h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #33475b;
+}
+
+.main-box-2 h2::before {
+    content: '';
+    display: inline-block;
+    background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/global/Marketing-Hub.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.main-box-3 h2::before {
+    content: '';
+    display: inline-block;
+    background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/global/Sales-Hub.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.main-box-4 h2::before {
+    content: '';
+    display: inline-block;
+    background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/global/Service-Hub.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.main-bottom p {
+    font-size: 15px;
+    color: #33475b;
+    font-weight: 300;
+    margin: 20px 0px;
+    letter-spacing: 0.5px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-bottom strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #33475b;
+    text-transform: uppercase;
+}
+
+.main-bottom ul {
+    list-style: none;
+    margin-top: 13px;
+}
+
+.main-bottom li {
+    margin: 13px 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #33475b;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+}
+
+.main-bottom li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg');
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: sub;
+}
+
+.main-bottom .bottone {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
 
 
 
@@ -380,4 +506,11 @@ main {
 
 
 
-/* ------------------------- */
+
+
+
+
+
+
+
+/* -------------END------------- */
